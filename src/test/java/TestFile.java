@@ -38,4 +38,9 @@ public class TestFile {
         List<Integer> after = straight.getNumList();
         assertEquals(after.toString(),l_output);
     }
+
+    @Test
+    public void doNothing() {
+        assertEquals(null,null);
+    }
 }
